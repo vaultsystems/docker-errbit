@@ -1,0 +1,2 @@
+FROM docker pull centurylinklabs/errbit
+ENV ERRBIT_PER_APP_EMAIL_AT_NOTICES true
