@@ -19,6 +19,7 @@ Example docker-composer.yml file:
         - "ERRBIT_EMAIL_FROM=errbit@example.com"
 
 Create the initial admin account:
+
     docker exec -ti services_errbit_1 bundle exec rake errbit:bootstrap
 
 Create users with user names matching the user names in OpenAM.
