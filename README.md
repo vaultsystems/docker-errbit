@@ -2,7 +2,7 @@
 
 Errbit 0.6.1 in a docker container. Prepared for OpenAM SSO via 'X-Forwarded-User' HTTP header.
 
-Example docker-composer.yml file:
+Example *docker-compose.yml* file:
 
     errbit_mongodb:
       image: mongo
@@ -22,4 +22,4 @@ Create the initial admin account:
 
     docker exec -ti services_errbit_1 bundle exec rake errbit:bootstrap
 
-Create users with user names matching the user names in OpenAM.
+Log in and create users with user names matching the user names in OpenAM.
